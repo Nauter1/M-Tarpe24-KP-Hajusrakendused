@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Duck Demo</title>
+    </head>
+    <body>
+        <button type="button" onclick="loadDoc()">Request Duck</button>
+        <p id="demo"></p>
+        <script>
+            function loadDoc(){
+                const xhttp = new XMLHttpRequest()
+                xhttp.onload = function(){
+                    const data = this.responseText
+                    const response = JSON.parse(data)
+                    let dataHtml = `<div>
+                        <img src="${item.url}" alt="Duck" width="500" height="600">
+                        <p>${item.message}</p>
+                    </div>`
+
+                    document.getElementById("demo").innerHTML = dataHtml
+                }
+                xhttp.open("GET","https://random-d.uk/api/random?format=json")
+                xhttp.send()
+                document.getElementById("demo").innerHTML = "Loading Duck"
+            }
+        </script>
+    </body>
+</html>          
