@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dog Status</title>
+    </head>
+    <body>
+        <button type="button" onclick="loadDoc()">Request Dog</button>
+        <p id="demo"></p>
+        <script>
+            function loadDoc() {
+                const xhttp = new XMLHttpRequest();
+                // ei teadnud kuidas teha paremini
+                const statusCodes = [
+                    200, 201, 204,
+                    301, 302, 304,
+                    400, 401, 403, 404, 405, 418, 429,
+                    500, 501, 502, 503, 504
+                ];
+                const statusCode =
+                    statusCodes[Math.floor(Math.random() * statusCodes.length)];
+
+                xhttp.onload = function () {
+                    const response = JSON.parse(this.responseText);
+
+                    let dataHtml = `<div>
+                        <img src="${response.image.jpg}" alt="Duck" width="500" height="600">
+                        <p>${response.status_code} - ${response.title}</p>
+                    </div>`;
+
+                    document.getElementById("demo").innerHTML = dataHtml;
+                };
+
+                const link = `https://http.dog/${statusCode}.json`;
+
+                xhttp.open("GET", link);
+                xhttp.send();
+
+                document.getElementById("demo").innerHTML = "Loading Dog";
+            }
+        </script>
+    </body>
+</html>          
