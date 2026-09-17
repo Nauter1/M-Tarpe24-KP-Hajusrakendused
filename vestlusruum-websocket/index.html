@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vestlusruum</title>
+        <style>
+            
+input[type=text], input[type=number]{
+    padding:5px;
+    border-radius: 10px;
+    border-bottom:2px solid #dc143c;
+    border-left:2px solid #00aaff;
+    border-top: 2px solid #ffd700;
+    border-right:2px solid #32cd32;
+}
+
+button{
+    width:150px;
+    height:50px;
+}
+
+input[type=radio]+label:hover{
+    font-size:20px;
+    background-color:#dc143c;
+    border-radius: 10px;
+    padding:1%;
+}
+
+input[type=submit]{
+    background-color:#00aaff;
+    font-size: 15px;
+}
+        </style>
+    </head>
+    <body>
+        <form name="publish">
+            <input type="text" name="user" placeholder="User" required="true">
+            <input type="text" name="message" maxlength="50">
+
+            <input type="submit" value="Saada">
+        </form>
+        <div id="messages">
+
+        </div>
+        <script>
+            let protocol = location.protocol === 'https:' ? 'wss:' : 'ws:'
+            let url = `${protocol}//${location.host}/ws`
+            let socket = new WebSocket(url)
+
+            document.forms.publish.onsubmit = function(){
+                socket.send(this.user.value + ":" + this.message.value)
+                return false
+            }
+
+            socket.onmessage = function(event){
+                let messageElement = document.createElement("div")
+                messageElement.textContent = event.data
+                document.getElementById("messages").append(messageElement)
+            }
+
+            socket.onclose = event => console.log("Closed", event.code)
+        </script>
+    </body>
+</html>
