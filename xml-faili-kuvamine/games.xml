@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameslist>
+    <game>
+        <title lang="en">Hearthstone</title>
+        <price>Free</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>IOS</platform>
+        </platforms>
+    </game>
+    <game>
+        <title lang="en">Minecraft</title>
+        <price>29.99</price>
+        <platforms>
+            <platform>PC</platform>
+            <platform>Xbox</platform>
+            <platform>Playstation</platform>
+            <platform>Android</platform>
+        </platforms>
+    </game>
+    <game>
+        <title lang="en">White Knuckle</title>
+        <price>15.99</price>
+        <platforms>
+            <platform>PC</platform>
+        </platforms>
+    </game>
+</gameslist>
