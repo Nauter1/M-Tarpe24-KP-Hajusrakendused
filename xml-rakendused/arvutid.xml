@@ -1,0 +1,56 @@
+<arvutikomponendid>
+    <komponent>
+        <nimi>Emaplaat</nimi>
+        <hind>299</hind>
+        <suurus>3cmx5cm</suurus>
+        <voimsus>vaga</voimsus>
+    </komponent>
+    <komponent>
+        <nimi>Videokaart</nimi>
+        <hind>2999</hind>
+        <suurus>7cmx10cm</suurus>
+        <graafikad>suureparased</graafikad>
+    </komponent>
+    <komponent>
+        <nimi>Malukaart</nimi>
+        <hind>399</hind>
+        <suurus>10cmx5cm</suurus>
+        <malu>2TB</malu>
+    </komponent>
+    <komponent>
+        <nimi>Protsessor</nimi>
+        <hind>699</hind>
+        <suurus>3cmx3cm</suurus>
+        <protsessimine>Suur</protsessimine>
+    </komponent>
+    <komponent>
+        <nimi>Monitor A</nimi>
+        <hind>299</hind>
+        <suurus>30cmx50cm</suurus>
+        <refresh>60Hz</refresh>
+    </komponent>
+   <komponent>
+        <nimi>Monitor V</nimi>
+        <hind>599</hind>
+        <suurus>30cmx50cm</suurus>
+        <refresh>1200Hz</refresh>
+    </komponent>
+    <komponent>
+        <nimi>Klaviatuur</nimi>
+        <hind>199</hind>
+        <suurus>15cmx30cm</suurus>
+        <nupud>Palju</nupud>
+    </komponent>
+    <komponent>
+        <nimi>Hiir</nimi>
+        <hind>99</hind>
+        <suurus>5cmx7cm</suurus>
+        <liikumine>Jah</liikumine>
+    </komponent>
+    <komponent>
+        <nimi>Toiteplokk</nimi>
+        <hind>499</hind>
+        <suurus>4cmx5cmx20cm</suurus>
+        <elekter>Vaga palju</elekter>
+    </komponent>
+</arvutikomponendid>
