@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--<?xml version="1.0" encoding="iso-8859-1"?>-->
+<inimesed>
+    <inimene>
+        <eesnimi>Juhan</eesnimi>
+        <perenimi>Juurikas</perenimi>
+        <synd>1963</synd>
+        <sugu>M</sugu>
+    </inimene>
+    <inimene>
+        <eesnimi>Kalle</eesnimi>
+        <perenimi>Kaalikas</perenimi>
+        <synd>1975</synd>
+        <sugu>M</sugu>
+    </inimene>
+    <inimene>
+        <eesnimi>Märi</eesnimi>
+        <perenimi>Maasikas</perenimi>
+        <synd>1981</synd>
+        <sugu>F</sugu>
+    </inimene>
+    <inimene>
+        <eesnimi>Oskar</eesnimi>
+        <perenimi>Ohakas</perenimi>
+        <synd>1971</synd>
+        <sugu>M</sugu>
+    </inimene>
+    <inimene>
+        <eesnimi>Raur</eesnimi>
+        <perenimi>Rakand</perenimi>
+        <synd>2007</synd>
+        <sugu>F</sugu>
+    </inimene>
+</inimesed>

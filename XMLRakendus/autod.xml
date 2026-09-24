@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<autod>
+	<auto>
+		<registrinumber>111AAA</registrinumber>
+		<perekonnanimi>Rajaste</perekonnanimi>
+	</auto>
+	<auto>
+		<registrinumber>222BBB</registrinumber>
+		<perekonnanimi>Kaalikas</perekonnanimi>
+	</auto>
+	<auto>
+		<registrinumber>333CCC</registrinumber>
+		<perekonnanimi>Kaalikas</perekonnanimi>
+	</auto>
+	<auto>
+		<registrinumber>444DDD</registrinumber>
+		<perekonnanimi>Meemi</perekonnanimi>
+	</auto>
+	<auto>
+		<registrinumber>555EEE</registrinumber>
+		<perekonnanimi>Neeni</perekonnanimi>
+	</auto>
+	<auto>
+		<registrinumber>666FFF</registrinumber>
+		<perekonnanimi>Xeexi</perekonnanimi>
+	</auto>
+</autod>
