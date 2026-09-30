@@ -7,8 +7,6 @@
         <asp:Xml ID="xml1" runat="server" DocumentSource="~/inimesed.xml" TransformSource="~/inimesed.xslt" />
         <h2>Autod</h2>
         <asp:Xml ID="xml2" runat="server" DocumentSource="~/autod.xml" TransformSource="~/autod.xslt" />
-        <h2>Elizabeth</h2>
-        <asp:Xml ID="xml3" runat="server" DocumentSource="~/elizabeth.xml" TransformSource="~/elizabeth.xslt" />
     </main>
 
 </asp:Content>
