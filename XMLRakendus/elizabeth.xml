@@ -1,224 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <sugupuu>
 	<pereliige synniaasta="1926">
 		<nimi>Elizabeth II</nimi>
-		<lapsed>
-			<laps>
+		<pereliikmed>
+			<pereliige synniaasta="1948">
 				<nimi>Charles III</nimi>
-			</laps>
-			<laps>
+				<pereliikmed>
+					<pereliige synniaasta="1982">
+						<nimi>William</nimi>
+						<pereliikmed>
+							<pereliige synniaasta="2013">
+								<nimi>George</nimi>
+							</pereliige>
+							<pereliige synniaasta="2015">
+								<nimi>Charlotte</nimi>
+							</pereliige>
+							<pereliige synniaasta="2018">
+								<nimi>Louis</nimi>
+							</pereliige>
+						</pereliikmed>
+					</pereliige>
+					<pereliige synniaasta="1984">
+						<nimi>Harry</nimi>
+						<pereliikmed>
+							<pereliige synniaasta="2019">
+								<nimi>Archie</nimi>
+							</pereliige>
+							<pereliige synniaasta="2021">
+								<nimi>Lilibet</nimi>
+							</pereliige>
+						</pereliikmed>
+					</pereliige>
+				</pereliikmed>
+			</pereliige>
+			<pereliige synniaasta="1950">
 				<nimi>Anne</nimi>
-			</laps>
-			<laps>
+			</pereliige>
+			<pereliige synniaasta="1960">
 				<nimi>Andrew Mountbatten-Windsor</nimi>
-			</laps>
-			<laps>
+				<pereliikmed>
+					<pereliige synniaasta="1988">
+						<nimi>Beatrice</nimi>
+					</pereliige>
+					<pereliige synniaasta="1990">
+						<nimi>Eugenie</nimi>
+					</pereliige>
+				</pereliikmed>
+			</pereliige>
+			<pereliige synniaasta="1964">
 				<nimi>Edward</nimi>
-			</laps>
-		</lapsed>
-		<vanemad>
-			<vanem>
-				<nimi>George VI</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Elizabeth</nimi>
-			</vanem>
-			<vanavanem>
-				<nimi>George V</nimi>
-			</vanavanem>
-		</vanemad>
-	</pereliige>
-	<!-- Elizabethi lapsed -->
-	<pereliige synniaasta="1948">
-		<nimi>Charles III</nimi>
-		<lapsed>
-			<laps>
-				<nimi>William</nimi>
-			</laps>
-			<laps>
-				<nimi>Harry</nimi>
-			</laps>
-		</lapsed>
-		<vanemad>
-			<vanem>
-				<nimi>Elizabeth II</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Philip</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="1950">
-		<nimi>Anne</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Elizabeth II</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Philip</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="1950">
-		<nimi>Anne</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Elizabeth II</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Philip</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="1960">
-		<nimi>Andrew Mountbatten-Windsor</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Elizabeth II</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Philip</nimi>
-			</vanem>
-		</vanemad>
-		<lapsed>
-			<laps>
-				<nimi>Beatrice</nimi>
-			</laps>
-			<laps>
-				<nimi>Eugenie</nimi>
-			</laps>
-		</lapsed>
-	</pereliige>
-	<pereliige synniaasta="1964">
-		<nimi>Edward</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Elizabeth II</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Philip</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<!-- Charles III lapsed -->
-	<pereliige synniaasta="1982">
-		<nimi>William</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Charles III</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Diana</nimi>
-			</vanem>
-		</vanemad>
-		<lapsed>
-			<laps>
-				<nimi>George</nimi>
-			</laps>
-			<laps>
-				<nimi>Charlotte</nimi>
-			</laps>
-			<laps>
-				<nimi>Louis</nimi>
-			</laps>
-		</lapsed>
-	</pereliige>
-	<pereliige synniaasta="1984">
-		<nimi>Harry</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Charles III</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Diana</nimi>
-			</vanem>
-		</vanemad>
-		<lapsed>
-			<laps>
-				<nimi>Archie</nimi>
-			</laps>
-			<laps>
-				<nimi>Lilibet</nimi>
-			</laps>
-		</lapsed>
-	</pereliige>
-	<!-- William Lapsed -->
-	<pereliige synniaasta="2013">
-		<nimi>George</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>William</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Catherine</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="2015">
-		<nimi>Charlotte</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>William</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Catherine</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="2018">
-		<nimi>Louis</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>William</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Catherine</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<!-- Harry Lapsed -->
-	<pereliige synniaasta="2019">
-		<nimi>Archie</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Harry</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Meghan</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="2021">
-		<nimi>Lilibet</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Harry</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Meghan</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<!-- Andrew Mountbatten-Windsor -->
-	<pereliige synniaasta="1988">
-		<nimi>Beatrice</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Andrew Mountbatten-Windsor</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Sarah Ferguson</nimi>
-			</vanem>
-		</vanemad>
-	</pereliige>
-	<pereliige synniaasta="1990">
-		<nimi>Eugenie</nimi>
-		<vanemad>
-			<vanem>
-				<nimi>Andrew Mountbatten-Windsor</nimi>
-			</vanem>
-			<vanem>
-				<nimi>Sarah Ferguson</nimi>
-			</vanem>
-		</vanemad>
+			</pereliige>
+		</pereliikmed>
 	</pereliige>
 </sugupuu>
